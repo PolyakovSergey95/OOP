@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prakt_1", "ConsoleApplication2\prakt_1.csproj", "{585406A4-9124-4E84-843D-8BB0D901BC3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prakt_1", "prakt_1\prakt_1.csproj", "{585406A4-9124-4E84-843D-8BB0D901BC3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prakt_3", "prakt_3\prakt_3.csproj", "{15D689E6-9628-4761-A0BF-B59154E06207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prakt_4", "prakt_4\prakt_4.csproj", "{94E1C072-E11D-4B70-A859-FE4A7AE00425}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{585406A4-9124-4E84-843D-8BB0D901BC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{585406A4-9124-4E84-843D-8BB0D901BC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{585406A4-9124-4E84-843D-8BB0D901BC3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D689E6-9628-4761-A0BF-B59154E06207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D689E6-9628-4761-A0BF-B59154E06207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D689E6-9628-4761-A0BF-B59154E06207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D689E6-9628-4761-A0BF-B59154E06207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94E1C072-E11D-4B70-A859-FE4A7AE00425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E1C072-E11D-4B70-A859-FE4A7AE00425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E1C072-E11D-4B70-A859-FE4A7AE00425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E1C072-E11D-4B70-A859-FE4A7AE00425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
