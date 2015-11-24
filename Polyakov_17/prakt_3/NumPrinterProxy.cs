@@ -21,7 +21,7 @@ namespace prakt_3
             int[] Numbers = new int[Nums.GetLength(0) / 2];
             for (int i = 0; i < Nums.GetLength(0) / 2; i++)
             {
-                Numbers[i] = Nums[i * 2];
+                Numbers[i] = Nums[i * 2+1];
             }
                 return Numbers;
         }
