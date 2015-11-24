@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace prakt_3
 {
-    internal class NumPrinter
+    class NumPrinter
     {
         private int n;
         public NumPrinter(int n)

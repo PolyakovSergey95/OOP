@@ -19,7 +19,7 @@ namespace prakt_3
         public int[] GetNumbers()
         {
             int[] Numbers = new int[Nums.GetLength(0) / 2];
-            for (int i = 0; i <= Nums.GetLength(0) / 2; i++)
+            for (int i = 0; i < Nums.GetLength(0) / 2; i++)
             {
                 Numbers[i] = Nums[i * 2];
             }

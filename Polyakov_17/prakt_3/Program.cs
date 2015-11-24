@@ -10,6 +10,16 @@ namespace prakt_3
     {
         static void Main(string[] args)
         {
+            NumPrinterProxy Npp = new NumPrinterProxy(20);
+            int[] Nums = Npp.GetNumbers();
+            for (int i = 0; i < Nums.Length; i++)
+            {
+                Console.WriteLine(Nums[i].ToString());
+            }
+            NumPrinter Np = new NumPrinter(10);
+            Nums = Np.GetNumbers();
+            Console.ReadLine();
         }
+
     }
 }
