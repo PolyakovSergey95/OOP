@@ -16,6 +16,12 @@ namespace prakt_4
             Console.WriteLine(printer.Print());
             printer.Sp = new LCPrint();
             Console.WriteLine(printer.Print());
+            Water SomeWater=new Water(new LiquidWater());
+            SomeWater.TempUP();
+            SomeWater.TempUP();
+            SomeWater.TempDown();
+            SomeWater.TempDown();
+            SomeWater.TempDown();
             Console.ReadLine();
         }
     }

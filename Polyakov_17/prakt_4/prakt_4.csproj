@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GasWater.cs" />
+    <Compile Include="IState.cs" />
     <Compile Include="LCPrint.cs" />
     <Compile Include="LiquidWater.cs" />
     <Compile Include="NCPrint.cs" />
@@ -51,6 +52,7 @@
     <Compile Include="SomePrint.cs" />
     <Compile Include="StringPrinter.cs" />
     <Compile Include="UCPrint.cs" />
+    <Compile Include="Water.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

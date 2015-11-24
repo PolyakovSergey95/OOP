@@ -16,9 +16,6 @@ namespace prakt_3
             {
                 Console.WriteLine(Nums[i].ToString());
             }
-            NumPrinter Np = new NumPrinter(10);
-            Nums = Np.GetNumbers();
-            Console.ReadLine();
         }
 
     }
